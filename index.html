@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>TIC-TAC-TOE</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport"/>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            background: #000000 !important;
+        }
+
+        canvas {
+            width: 100%;
+            display: block;
+        }
+    </style>
+    <script src="dist/app.min.js"></script>
+</head>
+
+<body id="app">
+<script>
+    window.onload = function () {
+
+        new tic_tac_toe.App();
+
+    };
+</script>
+</body>
+</html>

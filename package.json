@@ -1,0 +1,37 @@
+{
+  "name": "tic_tac_toe",
+  "version": "1.0.0",
+  "main": "app.min.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js && lite-server"
+  },
+  "dependencies": {
+    "@pixi/constants": "6.4.2",
+    "@pixi/core": "6.4.2",
+    "@pixi/settings": "6.4.2",
+    "@pixi/math": "6.4.2",
+    "@pixi/utils": "6.4.2",
+    "@pixi/runner": "6.4.2",
+    "@pixi/ticker": "6.4.2",
+    "@pixi/display": "6.4.2",
+    "@pixi/graphics": "6.4.2",
+    "@pixi/mesh": "6.4.2",
+    "@pixi/mesh-extras": "6.4.2",
+    "@pixi/sprite": "6.4.2",
+    "@pixi/app": "6.4.2",
+    "@pixi/loaders": "6.4.2",
+    "resource-loader": "3.0.1",
+    "pixi-spine": "3.0.16",
+    "pixi.js": "6.4.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.1.5",
+    "webpack": "^5.24.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-node-externals": "^2.5.2",
+    "lite-server": "^2.6.1"
+  }
+}

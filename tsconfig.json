@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es6",
+    "strict": false,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": true,
+    "allowJs": false,
+    "lib": ["dom", "es5", "scripthost", "es2015"],
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "outDir": "dist"
+
+  },
+  "exclude": ["devTools", "dist"]
+}
+
